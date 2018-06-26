@@ -1,0 +1,151 @@
+{
+    "acquisition_software": "Pychron17.7(Exp0.2,DVC0.1)", 
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "analyst_name": "", 
+    "comment": "D:2 Groundmass, 123.58 mg", 
+    "commit": "c41c2619e7282cbea2b94f342e28af085e50bb17", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": 6707928585445307508, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron17.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Hum.", 
+                "pub_date": "2018-06-25T17:12:50", 
+                "title": "iServer Hum.", 
+                "value": 28.1
+            }
+        ], 
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure", 
+                "name": "Pressure", 
+                "pub_date": "2018-06-25T15:18:01", 
+                "title": "Building", 
+                "value": 99.5
+            }, 
+            {
+                "device": "AirPressure2", 
+                "name": "Pressure2", 
+                "pub_date": "2018-06-25T16:41:49", 
+                "title": "Lab", 
+                "value": 88.4
+            }, 
+            {
+                "device": "MicroBoneGaugeController", 
+                "name": "JanDecabinPressure", 
+                "pub_date": "2018-06-25T18:11:58", 
+                "title": "Jan Decabin", 
+                "value": 4.3
+            }
+        ], 
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger", 
+                "name": "ColdFinger Temp.", 
+                "pub_date": "2018-06-25T16:00:04", 
+                "title": "Cold Finger", 
+                "value": -196.0
+            }, 
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Temp.", 
+                "pub_date": "2018-06-25T17:45:12", 
+                "title": "iServer Temp.", 
+                "value": 75.2
+            }, 
+            {
+                "device": "Chiller", 
+                "name": "Coolant Temp.", 
+                "pub_date": "2018-06-25T18:13:39", 
+                "title": "Coolant", 
+                "value": 16.0
+            }
+        ]
+    }, 
+    "experiment_queue_name": "CurrentExperiment", 
+    "extraction": "felix_diode.py", 
+    "identifier": "66351", 
+    "increment": 3, 
+    "instrument_name": "", 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-295", 
+    "irradiation_level": "D", 
+    "irradiation_position": 2, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)", 
+            "name": "Ar36"
+        }, 
+        "Ar37": {
+            "detector": "L1", 
+            "name": "Ar37"
+        }, 
+        "Ar38": {
+            "detector": "AX", 
+            "name": "Ar38"
+        }, 
+        "Ar39": {
+            "detector": "H1", 
+            "name": "Ar39"
+        }, 
+        "Ar40": {
+            "detector": "H2", 
+            "name": "Ar40"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Felix", 
+    "material": "BasaltLava", 
+    "measurement": "felix_analysis340_60_CDD_center.py", 
+    "post_equilibration": "felix_pump_extraction_line.py", 
+    "post_measurement": "felix_pump_ms.py", 
+    "project": "Saifuddeen01097", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Saifuddeen01097", 
+    "sample": "HKB-66", 
+    "source": {
+        "emission": 848.755, 
+        "trap": 248.271
+    }, 
+    "spec_sha": "71309ebc3ae7f8a77ba5fa182660fd0f0117048e", 
+    "timestamp": "2018-06-25T18:20:22.385523", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "6f47ce91-c7e9-4cb3-9877-fac7dcdfc043", 
+    "whiff_result": null
+}

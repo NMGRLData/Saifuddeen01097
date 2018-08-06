@@ -130,14 +130,14 @@
             "name": "Ar38",
             "serial_id": "00000"
         },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
         "Ar40": {
             "detector": "H2",
             "name": "Ar40",
-            "serial_id": "00000"
-        },
-        "PHHCbs": {
-            "detector": "H1",
-            "name": "PHHCbs",
             "serial_id": "00000"
         }
     },

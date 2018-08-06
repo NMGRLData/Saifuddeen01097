@@ -32,6 +32,17 @@
         "fit": "linear",
         "value": 0.125879640073772
     },
+    "Ar39": {
+        "error": 0.00800841566044308,
+        "error_type": null,
+        "filter_outliers_dict": {
+            "filter_outliers": false,
+            "iterations": 1,
+            "std_devs": 2
+        },
+        "fit": "linear",
+        "value": 3.3195326723247867
+    },
     "Ar40": {
         "error": 0.031588100953252006,
         "error_type": "SEM",
@@ -42,16 +53,5 @@
         },
         "fit": "Parabolic",
         "value": 104.77029078423683
-    },
-    "PHHCbs": {
-        "error": 0.00800841566044308,
-        "error_type": null,
-        "filter_outliers_dict": {
-            "filter_outliers": false,
-            "iterations": 1,
-            "std_devs": 2
-        },
-        "fit": "linear",
-        "value": 3.3195326723247867
     }
 }

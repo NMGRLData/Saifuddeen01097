@@ -1,151 +1,165 @@
 {
-    "acquisition_software": "Pychron17.7(Exp0.2,DVC0.1)", 
-    "aliquot": 1, 
-    "analysis_type": "unknown", 
-    "analyst_name": "", 
-    "comment": "D:1 Groundmass, 90.20 mg", 
-    "commit": "3b62f6f31f470c9d128a6f74370428e8478a7b64", 
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "collection_version": "1.0:1.0",
+    "comment": "D:1 Groundmass, 118.98 mg",
+    "commit": "0ac768bb089d7a1c2889a6b83247b403180d3327",
     "conditionals": [
         {
-            "analysis_types": null, 
-            "frequency": 10, 
-            "hash_id": -7398803934203552140, 
-            "level": 10, 
-            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
-            "ntrips": 1, 
-            "start_count": 5, 
+            "analysis_types": null,
+            "frequency": 10,
+            "hash_id": 367198533950281162,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
             "teststr": "L2(CDD).deflection==3250"
         }
-    ], 
-    "data_reduction_software": "Pychron17.7(DVC0.1)", 
+    ],
+    "data_reduction_software": "pychron py3/18.2",
     "detectors": {
         "AX": {
-            "deflection": 0.0, 
-            "gain": 0
-        }, 
+            "deflection": 0.0,
+            "gain": 1
+        },
         "H1": {
-            "deflection": 0.0, 
-            "gain": 0
-        }, 
+            "deflection": 0.0,
+            "gain": 1
+        },
         "H2": {
-            "deflection": 0.0, 
-            "gain": 0
-        }, 
+            "deflection": 0.0,
+            "gain": 1
+        },
         "L1": {
-            "deflection": 0.0, 
-            "gain": 0
-        }, 
+            "deflection": 0.0,
+            "gain": 1
+        },
         "L2(CDD)": {
-            "deflection": 0.0, 
-            "gain": 0
+            "deflection": 0.0,
+            "gain": 1
         }
-    }, 
+    },
     "environmental": {
         "lab_humiditys": [
             {
-                "device": "EnvironmentalMonitor", 
-                "name": "Lab Hum.", 
-                "pub_date": "2018-07-25T13:22:41", 
-                "title": "iServer Hum.", 
-                "value": 51.0
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-08-17T13:53:39",
+                "title": "iServer Hum.",
+                "value": 50.6
             }
-        ], 
+        ],
         "lab_pneumatics": [
             {
-                "device": "AirPressure", 
-                "name": "Pressure", 
-                "pub_date": "2018-07-25T13:08:56", 
-                "title": "Building", 
-                "value": 99.1
-            }, 
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-08-17T13:50:26",
+                "title": "Building",
+                "value": 98.7
+            },
             {
-                "device": "AirPressure2", 
-                "name": "Pressure2", 
-                "pub_date": "2018-07-25T13:08:57", 
-                "title": "Lab", 
-                "value": 88.2
-            }, 
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-08-17T13:50:26",
+                "title": "Lab",
+                "value": 87.8
+            },
             {
-                "device": "MicroBoneGaugeController", 
-                "name": "JanDecabinPressure", 
-                "pub_date": "2018-07-25T13:05:29", 
-                "title": "Jan Decabin", 
-                "value": 5.7
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-08-17T13:55:24",
+                "title": "Jan Decabin",
+                "value": 5.4
             }
-        ], 
+        ],
         "lab_temperatures": [
             {
-                "device": "Coldfinger", 
-                "name": "ColdFinger Temp.", 
-                "pub_date": "2018-07-25T10:30:32", 
-                "title": "Cold Finger", 
-                "value": -197.0
-            }, 
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-08-17T10:40:11",
+                "title": "Cold Finger",
+                "value": -198.0
+            },
             {
-                "device": "EnvironmentalMonitor", 
-                "name": "Lab Temp.", 
-                "pub_date": "2018-07-25T13:22:41", 
-                "title": "iServer Temp.", 
-                "value": 75.0
-            }, 
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-08-17T13:39:28",
+                "title": "iServer Temp.",
+                "value": 74.4
+            },
             {
-                "device": "Chiller", 
-                "name": "Coolant Temp.", 
-                "pub_date": "2018-07-25T13:18:33", 
-                "title": "Coolant", 
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-08-17T13:42:36",
+                "title": "Coolant",
                 "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-08-17T13:14:43",
+                "title": null,
+                "value": 34.3785103785104
             }
         ]
-    }, 
-    "experiment_queue_name": "CurrentExperiment", 
-    "extraction": "felix_diode.py", 
-    "identifier": "66558", 
-    "increment": 11, 
-    "instrument_name": "", 
-    "intensity_scalar": 0.0, 
-    "irradiation": "NM-298", 
-    "irradiation_level": "D", 
-    "irradiation_position": 1, 
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "extraction": "felix_diode.py",
+    "identifier": "66558",
+    "increment": 11,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-298",
+    "irradiation_level": "D",
+    "irradiation_position": 1,
     "isotopes": {
         "Ar36": {
-            "detector": "L2(CDD)", 
-            "name": "Ar36"
-        }, 
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
         "Ar37": {
-            "detector": "L1", 
-            "name": "Ar37"
-        }, 
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
         "Ar38": {
-            "detector": "AX", 
-            "name": "Ar38"
-        }, 
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
         "Ar39": {
-            "detector": "H1", 
-            "name": "Ar39"
-        }, 
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
         "Ar40": {
-            "detector": "H2", 
-            "name": "Ar40"
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
         }
-    }, 
-    "laboratory": "", 
-    "mass_spectrometer": "Felix", 
-    "material": "Groundmass", 
-    "measurement": "felix_analysis340_60_CDD_center.py", 
-    "post_equilibration": "felix_pump_extraction_line.py", 
-    "post_measurement": "felix_pump_ms.py", 
-    "project": "Saifuddeen01097", 
-    "queue_conditionals_name": "", 
-    "repository_identifier": "Saifuddeen01097", 
-    "sample": "HKB-15", 
+    },
+    "laboratory": "",
+    "mass_spectrometer": "felix",
+    "material": "",
+    "measurement": "felix_analysis340_60_CDD_center.py",
+    "post_equilibration": "felix_pump_extraction_line.py",
+    "post_measurement": "felix_pump_ms.py",
+    "principal_investigator": "",
+    "project": "",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Saifuddeen01097",
+    "sample": "HKB-15",
     "source": {
-        "emission": 843.889, 
-        "trap": 248.831
-    }, 
-    "spec_sha": "b71dc24ff5f714fcc0f3d85fffa84b9db600116d", 
-    "timestamp": "2018-07-25T13:23:18.077836", 
-    "tripped_conditional": null, 
-    "username": "", 
-    "uuid": "50a60e0f-4a12-4096-a6ea-68c691931d16", 
+        "emission": 840.97,
+        "trap": 248.943
+    },
+    "spec_sha": "3bd2c45b2f2676ab710e6ac6336b64023a76e170",
+    "timestamp": "2018-08-17T13:55:45.394100",
+    "tripped_conditional": null,
+    "username": "",
+    "uuid": "f65eec4b-ea46-4ed7-b75b-c85149c3a140",
     "whiff_result": null
 }
